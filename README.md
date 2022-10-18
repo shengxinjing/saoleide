@@ -10,8 +10,14 @@
 
 ## Dependencies
 
+* `@solidjs/router`
 
-
+## DevDependencies
+* `typescript`
+* `pnpm`
+* `husky`
+* `eslint`
+* `vite`
 
 ## Directory Structure
 
