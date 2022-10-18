@@ -10,16 +10,16 @@ Get started with Solidjs, Solid-router, and Vite.
 
 ## Dependencies
 
-* [`@solidjs/router`](https://github.com/solidjs/solid-router)
+* [@solidjs/router](https://github.com/solidjs/solid-router)
 
 ## DevDependencies
-* 🚀 [`Solidjs`](https://www.solidjs.com/), [Vite 3](https://vitejs.dev/), [`typescript`](https://www.typescriptlang.org/), [pnpm](https://pnpm.io/)
+* 🚀 [Solidjs](https://www.solidjs.com/), [Vite 3](https://vitejs.dev/), [TypeScript](https://www.typescriptlang.org/), [pnpm](https://pnpm.io/)
 * `husky`
 * `eslint`
 
 #### plugins
-- [`vite-plugin-solid`](https://github.com/solidjs/vite-plugin-solid)
-- [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages)
+- [vite-plugin-solid](https://github.com/solidjs/vite-plugin-solid)
+- [vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages)
 ## Directory Structure
 
 
