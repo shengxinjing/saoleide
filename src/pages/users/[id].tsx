@@ -1,5 +1,5 @@
 import type { Component } from 'solid-js';
-import {useRouteData,useParams} from '@solidjs/router'
+import {useParams} from '@solidjs/router'
 const UserPage: Component = () => {
   const {id} = useParams()
   return (
