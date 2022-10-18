@@ -1,24 +1,25 @@
-# solidkit
+# Saoleide
+
+Saoleide (Chinese pronunciation  similar to `Solid`)
+
+Get started with Solidjs, Solid-router, and Vite.
 
 ## Features
 
-## Tech Stack
-
-#### plugins
-
-#### Style
+- 🪆 [File based routing](./src/pages)
 
 ## Dependencies
 
 * [`@solidjs/router`](https://github.com/solidjs/solid-router)
 
 ## DevDependencies
-* `typescript`
-* `pnpm`
+* 🚀 [`Solidjs`](https://www.solidjs.com/), [Vite 3](https://vitejs.dev/), [`typescript`](https://www.typescriptlang.org/), [pnpm](https://pnpm.io/)
 * `husky`
 * `eslint`
-* `vite`
 
+#### plugins
+- [`vite-plugin-solid`](https://github.com/solidjs/vite-plugin-solid)
+- [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages)
 ## Directory Structure
 
 
