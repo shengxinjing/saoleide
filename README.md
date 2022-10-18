@@ -10,7 +10,7 @@
 
 ## Dependencies
 
-* `@solidjs/router`
+* [`@solidjs/router`](https://github.com/solidjs/solid-router)
 
 ## DevDependencies
 * `typescript`
