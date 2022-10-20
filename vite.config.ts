@@ -9,7 +9,7 @@ export default defineConfig({
     // Inspect()
   ],
   server: {
-    port: 9527,
+    port: 3333,
   },
   build: {
     target: 'esnext',
