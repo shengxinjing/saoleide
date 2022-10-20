@@ -7,9 +7,9 @@ Get started with Solidjs, Solid-router, and Vite.
 ## Features
 
 - 🪆 [File based routing](./src/pages)
+- 🎨 Tailwindcss 
 - [ ] Markdown 
 - [ ] Unit Testing with Vitest
-- [ ] Tailwindcss 
 - [ ] Auto Import Api
 
 ## Dependencies
