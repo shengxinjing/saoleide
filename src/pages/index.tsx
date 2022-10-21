@@ -1,13 +1,12 @@
 import type { Component } from 'solid-js';
 import Counter  from '../components/Counter';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 const Home: Component = () => {
   return (
-    <>
-     <Header></Header>
+    <Layout>
       <h1 class="text-3xl font-bold underline">Home Page</h1>
       <Counter></Counter>
-    </>
+    </Layout>
   )
 }
 
