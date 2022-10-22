@@ -15,3 +15,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.btn{
+  @apply bg-indigo-600 text-white py-2 px-4 rounded-lg shadow-md
+}
+.input{
+  @apply py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-indigo-300 shadow-md rounded-lg
+}

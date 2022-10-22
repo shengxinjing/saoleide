@@ -1,15 +1,18 @@
 
-import { createSignal } from "solid-js"
 import type { Component } from 'solid-js'
-import Layout from "../components/Layout"
+import Layout from "../layout/Layout"
 
 
 const About: Component = () => {
-  const [todos, setTodos] = createSignal<string[]>(["Learn Solid", "Build a Todo App"])
-  console.log(todos,setTodos)
   return (
     <Layout>
-      <h2>Abouts code markdown...</h2>
+      <h2 class="text-3xl">Abouts page</h2>
+      <p>
+        Saoleide (Chinese pronunciation  similar to `Solid`)
+      </p>
+      <p>
+        Get started with Solidjs, Solid-router, and Vite.
+      </p>
     </Layout>
   )
 }

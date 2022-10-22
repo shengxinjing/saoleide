@@ -1,6 +1,6 @@
 import { A } from '@solidjs/router'
 import type { Component } from 'solid-js'
-import Layout from '../components/Layout'
+import Layout from '../layout/Layout'
 
 const NotFound: Component = () => {
   return (

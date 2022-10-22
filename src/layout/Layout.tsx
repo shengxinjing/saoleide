@@ -1,10 +1,10 @@
 import type { ParentComponent } from 'solid-js'
-import Header from './Header'
+import Header from '../components/Header'
 const Layout: ParentComponent = (props) => {
   return (
     <>
       <Header></Header>
-      <main class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+      <main class="mx-auto px-2 sm:px-6">
         {props.children}
       </main>
       <footer>
