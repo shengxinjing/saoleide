@@ -10,8 +10,8 @@ const Home: Component = () => {
     <Layout>
       <Counter></Counter>
       <form class="flex w-full max-w-sm mx-auto m-2">
-      <input 
-        value={name()} onChange={e=>setName(e.target?.value)} 
+      <input  
+        value={name()} onChange={e=>setName((e.target as HTMLInputElement).value)} 
         class="input" type="text" />
       <button
         onClick={()=>{

@@ -9,7 +9,7 @@
     "serve": "vite preview",
     "test": "vitest",
     "test:unit": "vitest",
-    "typecheck": "tsc --noEmit",
+    "type": "tsc --noEmit",
     "prepare": "husky install"
   },
   "license": "MIT",

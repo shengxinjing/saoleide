@@ -29,7 +29,7 @@ const TodoList: Component = () => {
   return (
     <Layout>
       <div class="m-3">
-        <input class="input" value={name()} onChange={e=>setName(e.target.value)} />
+        <input class="input" value={name()} onChange={e=>setName((e.target as HTMLInputElement).value)} />
         <button
           class="btn"
           onClick={(e) => {
